@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShoppingCategory">
+
+    <ImageView
+        android:id="@+id/item4"
+        android:layout_width="wrap_content"
+        android:layout_height="196dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:onClick="onShoesClicked"
+        app:srcCompat="@drawable/shoes" android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:onClick="onClothesClicked"
+        app:srcCompat="@drawable/clothes" android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/item1"
+        android:layout_width="210dp"
+        android:layout_height="190dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="78dp"
+        android:onClick="onElectronicClicked"
+        app:srcCompat="@drawable/electronics" android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/item3"
+        android:layout_width="210dp"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="307dp"
+        android:onClick="onBeautyClicked"
+        app:srcCompat="@drawable/beauty" android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Shop by Categories" />
+
+    <TextView
+        android:id="@+id/loggedUser"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="right"
+        android:text="Welcome jmugenzi@mum.edu"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/electronic"
+        android:layout_width="209dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:text="Electronics" />
+
+    <TextView
+        android:id="@+id/clothes"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:gravity="center"
+        android:text="Clothes" />
+
+    <TextView
+        android:id="@+id/beauty"
+        android:layout_width="209dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="504dp"
+        android:gravity="center"
+        android:text="Beauty" />
+
+    <TextView
+        android:id="@+id/shoes"
+        android:layout_width="201dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="Shoes" />
+
+</RelativeLayout>
